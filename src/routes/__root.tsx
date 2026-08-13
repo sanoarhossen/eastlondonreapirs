@@ -79,22 +79,26 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "East London Repairs | Door & Window Repair Specialists" },
+      { title: "Door Repair East London | uPVC & Aluminium Door Specialists" },
       {
         name: "description",
         content:
-          "uPVC, aluminium and composite door repairs across East London. Locks, cylinders, hinges, alignment and double glazed glass units.",
+          "Same-day uPVC, aluminium and composite door repairs in East London. Locks, cylinders, hinges, alignment, glass units. Call 079 3951 6326.",
       },
       { name: "author", content: "East London Repairs" },
-      { property: "og:title", content: "East London Repairs | Door & Window Repair Specialists" },
+      { property: "og:title", content: "Door Repair East London | uPVC & Aluminium Door Specialists" },
       {
         property: "og:description",
         content:
-          "Fast, affordable door and window repairs across East London. Call 079 3951 6326.",
+          "Same-day uPVC, aluminium and composite door repairs in East London. Locks, cylinders, hinges, alignment, glass units. Call 079 3951 6326.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Door Repair East London | uPVC & Aluminium Door Specialists" },
+      { name: "twitter:description", content: "Same-day uPVC, aluminium and composite door repairs in East London. Locks, cylinders, hinges, alignment, glass units. Call 079 3951 6326." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/8138b401-c41f-4dfb-b2ad-173dc8704e3b" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/8138b401-c41f-4dfb-b2ad-173dc8704e3b" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },

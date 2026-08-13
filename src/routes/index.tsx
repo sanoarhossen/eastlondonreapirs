@@ -15,11 +15,11 @@ export const Route = createFileRoute("/")({
         content:
           "Same-day uPVC, aluminium and composite door repairs in East London. Locks, cylinders, hinges, alignment, glass units. Call 079 3951 6326.",
       },
-      { property: "og:title", content: "Door Repair East London | East London Repairs" },
+      { property: "og:title", content: "Door Repair East London | uPVC & Aluminium Door Specialists" },
       {
         property: "og:description",
         content:
-          "Same-day door and window repairs across East London. Locks, glass units, hinges and alignment by experienced local engineers.",
+          "Same-day uPVC, aluminium and composite door repairs in East London. Locks, cylinders, hinges, alignment, glass units. Call 079 3951 6326.",
       },
     ],
   }),
