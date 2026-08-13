@@ -16,8 +16,8 @@ function markerIcon(active: boolean) {
     html: `<span style="display:block;width:${active ? 18 : 12}px;height:${
       active ? 18 : 12
     }px;border-radius:9999px;background:${
-      active ? "hsl(var(--accent))" : "hsl(var(--primary))"
-    };box-shadow:0 0 0 ${active ? 6 : 3}px hsl(var(--accent) / 0.25);"></span>`,
+      active ? "var(--accent)" : "var(--primary)"
+    };box-shadow:0 0 0 ${active ? 6 : 3}px color-mix(in oklab, var(--accent) 35%, transparent);"></span>`,
     iconSize: [active ? 18 : 12, active ? 18 : 12],
     iconAnchor: [active ? 9 : 6, active ? 9 : 6],
   });
