@@ -37,6 +37,9 @@ export function SiteFooter() {
             <Link to="/services" className="underline underline-offset-4">
               Services
             </Link>
+            <Link to="/areas" className="underline underline-offset-4">
+              Coverage map
+            </Link>
             <Link to="/contact" className="underline underline-offset-4">
               Contact
             </Link>
