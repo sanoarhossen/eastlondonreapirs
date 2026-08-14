@@ -73,10 +73,10 @@ export function ReviewsSection({ heading = "What our customers say" }: { heading
             <h2 className="mt-2 text-3xl sm:text-4xl">{heading}</h2>
           </div>
           <div className="flex items-center gap-3 rounded-sm border border-border bg-card px-4 py-3">
-            <span className="font-display text-3xl font-extrabold">4.9</span>
+            <span className="font-display text-3xl font-extrabold">5</span>
             <div>
               <Stars rating={5} />
-              <p className="mt-1 text-xs text-muted-foreground">Based on 240+ local jobs</p>
+              <p className="mt-1 text-xs text-muted-foreground">Based on 221 local jobs</p>
             </div>
           </div>
         </div>

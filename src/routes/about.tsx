@@ -29,9 +29,9 @@ function AboutPage() {
         <div>
           <h1 className="text-4xl sm:text-5xl">About East London Repairs</h1>
           <p className="mt-5 text-muted-foreground">
-            We are one of the most experienced repairers of uPVC and aluminium doors and windows in
-            East London. For over fifteen years we have kept front doors locking, windows opening
-            and shop fronts trading — with good service at a fair price.
+          We are one of the most experienced repairers of uPVC and aluminium doors and windows in
+          East London. For over six years we have kept front doors locking, windows opening
+          and shop fronts trading — with good service at a fair price.
           </p>
           <p className="mt-4 text-muted-foreground">
             Every repair uses the best quality material we can source, because we want customers to
@@ -40,9 +40,9 @@ function AboutPage() {
           </p>
           <dl className="mt-8 grid grid-cols-3 gap-4">
             {[
-              ["15+", "Years repairing"],
-              ["240+", "Local jobs a year"],
-              ["4.9", "Average rating"],
+              ["6+", "Years repairing"],
+              ["221", "Local jobs a year"],
+              ["5.0", "Average rating"],
             ].map(([value, label]) => (
               <div key={label} className="rounded-sm border border-border bg-card p-4">
                 <dt className="font-display text-3xl font-extrabold">{value}</dt>
