@@ -30,7 +30,7 @@ const trust = [
   { icon: Clock, title: "Same-day call-outs", text: "Most repairs completed on the first visit." },
   { icon: ShieldCheck, title: "Security first", text: "Anti-snap, anti-bump locks as standard." },
   { icon: PoundSterling, title: "Repair, not replace", text: "We fix doors others say to replace." },
-  { icon: BadgeCheck, title: "15+ years local", text: "Trusted by East London homes and shops." },
+  { icon: BadgeCheck, title: "6+ years local", text: "Trusted by East London homes and shops." },
 ];
 
 function Index() {
